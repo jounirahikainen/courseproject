@@ -4,12 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-//Make a collection for posts. Add new posts into collection after moving them to feed.
-//Add premade posts so the page isn't empty on start. Something like: Welcome to Inspire. Feel free to login.
-//Do more customisation. Maybe divide navbar loading into its own js file. Makes this whole thing look more professional.
-//Add commented out console logs for TA to use for evaluation.
-
-
 //Global variables. Including in memory database.
 var loki = require('lokijs');
 var db = new loki('database.json');
